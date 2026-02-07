@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'équipe, Développeur Full Stack spécialisé dans la création d'applications web modernes et performantes.">
+    <meta name="keywords" content="développeur full stack, portfolio, développement web, applications web, HTML, CSS, JavaScript, React, Node.js">
+    <meta name="author" content="PortFolio">
+    <meta name="theme-color" content="#050a0f">
+
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://votredomaine.com/">
+    <meta property="og:title" content="Portfolio - Développeur Full Stack">
+    <meta property="og:description" content="Découvrez mon portfolio de développeur Full Stack. Création d'applications web modernes et performantes.">
+    <meta property="og:image" content="https://votredomaine.com/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://votredomaine.com/">
+    <meta property="twitter:title" content="Portfolio | LOULENDO NZUE Dylan - Développeur Full Stack">
+    <meta property="twitter:description" content="Découvrez mon portfolio de développeur Full Stack. Création d'applications web modernes et performantes.">
+    <meta property="twitter:image" content="https://votredomaine.com/images/og-image.jpg">
+
+    <title>Développeur Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <body>
+
+        <!-- NAVBAR -->
+        <header class="navbar" role="banner">
+            <a href="#home" class="logo" aria-label="Retour à l'accueil">
+                <img src="Assets/logo.jpg" alt="Logo Portfolio" class="logo-img">
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="navMenu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+            <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Menu principal">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link" data-text="Accueil">Accueil</a></li>
+                    <li><a href="#skills" class="nav-link" data-text="Compétences">Compétences</a></li>
+                    <li><a href="#projects" class="nav-link" data-text="Projets">Projets</a></li>
+                    <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- HERO -->
+        <section id="home" class="hero" aria-labelledby="main-heading">
+            <div class="hero-text">
+                <h1 id="main-heading">Bienvenue sur notre Portfolio d'Équipe<br><span class="highlight">Développeurs Full Stack</span></h1>
+                <p class="lead">
+                  ENGOUANG Alwin / GHOMBY Dior Olsen / MACKOUKOU TOUNGOU Hamyche Marlonne / LOULENDO NZUE Dylan / NKOMA KOUMBA John Dorian
+                </p>
+                <p class="lead">
+                    Nous concevons des applications web modernes, sécurisées et performantes, en combinant créativité et ingénierie logicielle.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" aria-label="Aller à la section contact">Me contacter</a>
+                    <a href="#projects" class="btn btn-secondary" aria-label="Voir mes projets">Voir mes projets</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/votrepseudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/votrepseudo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:loulendonzuedylanivanlain@example.com" aria-label="Envoyer un email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="Assets/logo.jpg" alt="Logo Portfolio" class="logo-circle">
+                    <img src="Assets/.jpg" alt="" width="350" height="350" loading="eager" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPÉTENCES -->
+        <section id="skills" class="section" aria-labelledby="skills-heading">
+            <div class="section-header">
+                <h2 id="skills-heading">Compétences techniques</h2>
+                <p class="section-subtitle">Un aperçu de mes compétences et technologies maîtrisées</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5 & CSS3</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React.js & Next.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js & Express</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PHP &  Laravel</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Bases de données</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Outils</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git & GitHub</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker & DevOps</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Tests & CI/CD</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <a href="Assets/CV.pdf" class="btn btn-outline" aria-label="Voir mon CV" download>Télécharger mon CV</a>
+            </div>
+        </section>
+
+        <!-- PROJETS -->
+        <section id="projects" class="section dark" aria-labelledby="projects-heading">
+            <div class="section-header">
+                <h2 id="projects-heading">Nos Projets</h2>
+                <p class="section-subtitle">Découvrez une sélection de nos réalisations</p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/dorian1.png" alt="Capture d'écran du réseau social" loading="lazy">
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" aria-label="Voir le code source">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="btn-icon" aria-label="Voir la démo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Setrage</h3>
+                        <p>Plateforme de réseau social avec création de profil, publications, commentaires et messagerie en temps réel.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Socket.IO</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/alwin1.png" alt="Capture d'écran du site e-commerce" loading="lazy">
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" aria-label="Voir le code source">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="btn-icon" aria-label="Voir la démo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fileget</h3>
+                        <p>Fileget est une application de gestionnaire de fichier réaliser afin de facilité les échanges de tout type de document.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Stripe</span>
+                            <span>Strapi</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/Dior1.png" alt="Interface de l'assistant intelligent" loading="lazy">
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" aria-label="Voir le code source">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="btn-icon" aria-label="Voir la démo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FoodSave</h3>
+                        <p>Une application qui met en relation des donnateurs et des bénéficiaire de dons alimentaire. Elle vise à lutter contre le gaspillage alimentaire et renforcer les liens entre la communauté.</p>
+                        <div class="project-tech">
+                            <span>Réact</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Netlify/Railway</span>
+                        </div>
+                    </div>
+                </article>
+                  <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/marlonne1.png" alt="Capture d'écran du site e-commerce" loading="lazy">
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" aria-label="Voir le code source">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="btn-icon" aria-label="Voir la démo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kwami</h3>
+                        <p>une plateforme web dédiée à la promotion du tourisme et à la biodiversité du Gabon. La plateforme permet de promouvoir le tourisme gabonais à travers du contenu visuel de qualité, valoriser la biodiversité et les richesses naturelles du Gabon, créer une communauté des guides accrédtés et visiteurs passionnés, faciliter la decouverte des sites touristiques et de la faune/flore locale</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>Blade</span>
+                            <span>Vite</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+                  <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/dylan1.png" alt="Capture d'écran du site e-commerce" loading="lazy">
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" aria-label="Voir le code source">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="btn-icon" aria-label="Voir la démo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Clinix</h3>
+                        <p>Cette application web a été concue pour optimiser la gestion d'une infimerie en centralisant l'ensemble des informations et administratives sur une plateforme sécurisée et facile a utiliser.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MYSQL</span>
+                            <span>LARAVEL</span>
+                            <span>BOOSTRAP</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cta-container">
+                <button type="button" class="btn btn-outline" id="toggleProjects" aria-controls="projectsGrid" aria-expanded="false">Voir plus de projets</button>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section dark" aria-labelledby="contact-heading">
+            <div class="section-header" data-aos="fade-up">
+                <h2 id="contact-heading">Contactez-moi</h2>
+                <p class="section-subtitle">Discutons de votre prochain projet</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-container" style="text-align: center; padding: 3rem 0;">
+                <div class="contact-method" style="max-width: 500px; margin: 0 auto; background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+                    <div class="contact-icon" style="font-size: 3rem; color: #25D366; margin-bottom: 1.5rem;">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 style="color: var(--light); margin-bottom: 1rem;">Contactez-nous sur WhatsApp</h3>
+                    <p style="color: var(--light-slate); margin-bottom: 2rem;">Cliquez sur le bouton ci-dessous pour démarrer une conversation</p>
+                    <a href="https://wa.me/24174883183" class="btn btn-primary" 
+                       style="background-color: #25D366; border: none; padding: 1rem 2rem; font-size: 1.1rem;"
+                       target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp" style="margin-right: 10px;"></i>
+                        Discuter sur WhatsApp
+                    </a>
+                    <p style="margin-top: 1.5rem; color: var(--light-slate);">
+                        <i class="fas fa-phone" style="margin-right: 8px;"></i>
+                        <a href="https://wa.me/24174883183" style="color: #25D366; text-decoration: none;">
+                            +241 74 88 31 83
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer" role="contentinfo">
+            <div class="footer-wave">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-brand" data-aos="fade-up">
+                    <a href="#home" class="footer-logo" aria-label="Retour à l'accueil">
+                        <span>Port</span>Folio
+                    </a>
+                    <p>Développeur Full Stack passionné par la création d'expériences web exceptionnelles et innovantes.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/DylanLain-1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="http://linkedin.com/in/dylan-ivan-lain-loulendo-nzue-a8b98839b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/votrepseudo" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-nav">
+                        <li><a href="#home" class="footer-link"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="#skills" class="footer-link"><i class="fas fa-chevron-right"></i> Compétences</a></li>
+                        <li><a href="#projects" class="footer-link"><i class="fas fa-chevron-right"></i> Projets</a></li>
+                        <li><a href="#contact" class="footer-link"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; <span id="current-year">2025</span> LOULENDO NZUE Dylan. Tous droits réservés.</p>
+                    <div class="legal-links">
+                        <a href="#" class="legal-link">Mentions légales</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="legal-link">Politique de confidentialité</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="legal-link">Conditions d'utilisation</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bouton retour en haut -->
+        <button id="back-to-top" class="back-to-top" aria-label="Retour en haut de la page">
+        <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Chargement des icônes Font Awesome -->
+        <!-- CDN Font Awesome déjà inclus dans le head -->
+
+        <!-- Scripts -->
+        <script src="Script.js" defer></script>
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR-GA-ID"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-YOUR-GA-ID');
+        </script>
+    </body>
+
+</html>
